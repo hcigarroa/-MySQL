@@ -1,0 +1,16 @@
+{
+  "name": "desafiosql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:setup": "node database/create/create.knex.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1"
+  }
+}
