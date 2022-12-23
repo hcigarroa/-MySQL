@@ -8,7 +8,7 @@ const testService = new TestService();
 router.get('/test', (_req, res) => {
     try{
         const mockData = await testService.getTestMock();
-        res.status(200) .json({
+        res.status(200) .json({ 
             success: true,
             data: mockData
         })
